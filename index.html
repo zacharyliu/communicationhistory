@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>A Timeline of Communication History</title>
+<link rel="stylesheet" type="text/css" href="css/timeline.css">
+<link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.8.11.custom.css">
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.touch.js"></script>
+<script type="text/javascript" src="js/iscroll-lite-min.js"></script>
+<script type="text/javascript" src="js/jquery.overscroll.min.js"></script>
+<script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+<script type="text/javascript" src="js/CSVToArray.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<!--<script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>-->
+<script type="text/javascript" src="js/timeline.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7596784-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+    <div id="modal"></div>
+    <div id="modalDialog"></div>
+    <div id="leftPanel">
+        <div id="leftPanelInfo"></div>
+        <div id="title">A Timeline of Communication History</div>
+        <div id="leftPanelOptions"></div>
+    </div>
+    <div id="rightPanel">
+        <div id="timelineWrapper">
+            <div id="timeline">
+                <div id="timelineInnerWrapper">
+                    <div id="timelineLeft"></div>
+                    <div id="timelineRight">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="backgroundContainer">
+        <div id="background">
+        </div>
+    </div>
+</body>
+</html>

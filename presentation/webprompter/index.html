@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>webprompter</title>
+        <meta name="viewport" content="user-scalable=no" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+        <script type="text/javascript" src="webprompter.js"></script>
+        <script type="text/javascript" src="jquery.hotkeys.js"></script>
+        <script type="text/javascript" src="jquery.scrollTo-min.js"></script>
+        <script type="text/javascript" src="ios-fixed.js"></script>
+        <link rel="stylesheet" type="text/css" href="dark.css"></link>
+    </head>
+    <body>
+<a name="top"></a>
+        <div id="infocontainer">
+            <div id="infobody">
+                <span id="state">stopped</span> : press play to continue
+            </div>
+        </div>
+        <div id="text">Please wait, loading from content.html...</div>
+        <div id="controls">
+            <div id="leftcontrols">
+                <div id="smaller" class="button">Aa -</div>
+                <div id="larger" class="button">Aa +</div>
+                <div id="slower" class="button">slow</div>
+                <div id="faster" class="button">fast</div>
+            </div>
+            <div id="playback">
+                <div id="helpbutton" class="button">?</div>
+                <div id="stop" class="button">stop</div>
+                <div id="pause" class="button">pause</div>
+                <div id="play" class="button">play</div>
+            </div>
+            <div id="time">
+                <div id="timelabel"><a href="#top" id="toplink" title="go to top">Remaining Time:</a></div>
+                <input id="clock" value="14:00"></input>
+            </div>
+        </div>
+        <div id="helpcontainer">
+            <div id="help">
+                <div id="helpbody">
+                    Help:<br />
+                    h = toggle this dialog<br />
+                    p = play/pause<br />
+                    o = stop/play<br />
+                    - / + = 5px smaller / 5px larger<br />
+                    j / k = 5% slower / 5% faster <br />
+                    <br />
+                    "Play" starts playback. "Pause" freezes the text but leaves the clock running. "Stop" stops both the text and the clock.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
